@@ -12,6 +12,7 @@ def see_form():
     <form action="" method='POST'>
 <input type="text" name="phrase"> Enter a phrase: <br>
 <input type="submit" value="Submit">
+</form>
 """ ## HINT: In there ^ is where you need to add a little bit to the code...
     if request.method == "POST":
         pass
@@ -23,4 +24,4 @@ def see_form():
 
 
 if __name__ == "__main__":
-    app.run(use_reloader=True, debug=True)
+    app.run(debug=True)
